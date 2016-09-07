@@ -46,7 +46,7 @@
         "only": [
           "virtualbox-iso"
         ],
-        "artifact": "zimbatm/nixos-16.03-x86_64",
+        "artifact": "pspringmeyer/nixos-16.03-x86_64",
         "artifact_type": "vagrant.box",
         "metadata": {
           "provider": "virtualbox",

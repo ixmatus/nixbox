@@ -54,7 +54,7 @@ def gen_template(
         guest_additions_mode: 'disable',
         guest_os_type: virtualbox_guest_os,
         vboxmanage: [
-          ['modifyvm', '{{.Name}}', '--memory', '1024'],
+          ['modifyvm', '{{.Name}}', '--memory', '1024']
         ],
       ),
     ],
